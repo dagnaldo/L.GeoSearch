@@ -20,7 +20,7 @@ L.Control.GeoSearch = L.Control.extend({
     options: {
         position: 'topleft',
         showMarker: true,
-        showPopup: false,
+        showPopup: true,
         customIcon: false,
         retainZoomLevel: false,
         draggable: false
@@ -28,10 +28,10 @@ L.Control.GeoSearch = L.Control.extend({
 
     _config: {
         country: '',
-        searchLabel: 'Enter address',
-        notFoundMessage: 'Sorry, that address could not be found.',
+        searchLabel: 'Entre com o endereço',
+        notFoundMessage: 'Desculpe, este endereço não pode ser encontrado.',
         messageHideDelay: 3000,
-        zoomLevel: 18
+        zoomLevel: 17
     },
 
     initialize: function (options) {
